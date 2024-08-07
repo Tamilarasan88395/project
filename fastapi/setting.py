@@ -14,4 +14,5 @@ class Settings:
     def get_attribute(self, key):
         return getattr(self, key, None)
 
+
 setting = Settings()
